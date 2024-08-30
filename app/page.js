@@ -13,11 +13,13 @@ export default function Home() {
         <h1 className="text-3xl font-bold mb-4 pb-3 text-white">
           Metabase Sample Embed
         </h1>
-        <iframe
-          src="http://localhost:3000/public/dashboard/0dc6f56d-2d6b-498c-b916-e764d4a4dea5"
-          className="flex-1 w-full h-full border-none rounded-lg"
-          allowTransparency
-        ></iframe>
+        <div className="h-screen w-full px-10">
+          <iframe
+            src="http://localhost:3000/public/dashboard/0dc6f56d-2d6b-498c-b916-e764d4a4dea5"
+            className="flex-1 w-full h-full border-none rounded-lg"
+            allowTransparency
+          ></iframe>
+        </div>
       </main>
     </div>
   );
