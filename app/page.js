@@ -24,7 +24,7 @@ export default function Home() {
         >
           {showConfetti && <Confetti />}
           <iframe
-            src="http://localhost:3000/public/dashboard/0dc6f56d-2d6b-498c-b916-e764d4a4dea5"
+            src="http://localhost:3000/public/dashboard/33e0c290-9c97-4d86-bc57-15674057af12"
             className="flex-1 w-full h-full border-none rounded-lg"
             allowTransparency
             title="Metabase Dashboard"
